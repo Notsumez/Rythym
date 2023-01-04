@@ -1,0 +1,542 @@
+@charset "UTF-8";
+
+/* ############### COMEÇO DO GERAL ############### */
+@font-face{
+	font-family: 'texto';
+	src: url("../fontes/axion.ttf");
+}
+
+@font-face{
+	font-family: 'titulo';
+	src: url("../fontes/cornerstone.ttf");
+}
+
+body{
+	font-family: 'texto', sans-serif;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	padding: 0px;
+	margin: 0px;
+}
+
+a{
+	color: #000000;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #9c9c9c !important;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	text-decoration: none;
+}
+
+figure{
+	margin: 0px;
+}
+
+.linha {
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	display: inline-block;
+	position: relative;
+	background-color: #ffffff;
+	margin-top: 0px;
+	text-align: center;
+}
+
+.esquerda {
+	position: relative;
+	display: block;
+	margin: 0px 10px 0px 40px;
+	float:left;
+}
+
+.direita {
+	position: relative;
+	display: block;
+	margin: 10px 40px 10px 10px;
+	float:right;
+	color: #000000;
+	text-align: right;
+}
+
+#email{
+	display: inline-block;
+	width: 100%;
+	background-color: #fff;
+	margin: 0px;
+	padding: 0px;
+}
+
+.email{
+	margin: 0px 40px 0px 0px;
+	float:right;
+}
+
+.imagem_banner{
+	max-width: 100%;
+}
+
+.linha_vermelha{
+	background-color: #b70302;
+	height: 15px;
+	margin-top: -8px;
+	z-index: 9999;
+}
+
+hr{
+	color: #fff;
+}
+
+.linha_subitens{
+	display: flex;
+	justify-content: space-around;
+}
+
+.titulo_secao{
+	width: 230px;
+	display: block;
+	font-size: 14pt;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	border-bottom: 2px solid;
+	border-color: #818181;
+	border-width: 2px;
+	border-radius: 0px 20px 0px 20px;
+}
+
+.subtitulo{
+	background-color: #b70302;
+	color: #fff;
+	width: 600px;
+	padding-left: 15px;
+}
+
+#descricao{
+	margin-bottom: 50px;
+}
+/* ############### FIM DO GERAL ############### */
+
+
+/* ############### COMEÇO DO MENU ############### */
+.btn-menu{
+	width: 40px;
+	height: 40px;
+	position: fixed;
+	top: 5px;
+	right: 5px;
+	text-align: center;
+	color: #fff;
+	border-radius: 40px;
+	cursor:pointer;
+	background: linear-gradient(to right,#ce2e3c,#da6709);
+	z-index: 9999;
+}
+/*Menu*/
+.menu{
+	display: none;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background-color: rgba(0,0,0,0.9);
+	top: 0;
+	left: 0;
+	z-index: 9999;
+}
+
+.btn-close{
+	font-size: 1.5em;
+	color: #fff;
+	float: right;
+	cursor: pointer;
+	margin: 2% 3% 0 0;
+}
+
+.menu ul{
+	width: 100%;
+	float: left;
+	text-align: center;
+	padding: 0px;
+}
+
+.menu li{
+	padding-bottom: 15px !important;
+}
+
+.menu li a {
+	font-size: 2em;
+	color: #fff;
+	padding-bottom: 15px !important;
+}
+
+.menu_topo{
+	position: fixed !important;
+	width: 100%;
+	margin: 0px;
+	background-color: rgba(241,241,241,0.9);
+	top: 0px;
+	z-index: 9999;
+}
+
+.menu_topo #email{
+	display: none;
+}
+
+.menu_topo #logo img{
+	max-width: 150px;
+}
+/* ############### FIM DO MENU ############### */
+
+
+/* ############### COMEÇO DO FOOTER ############### */
+footer{
+	background-color: #ddd;
+}
+
+.footer{
+	background-color: #ddd;
+	padding-top: 2%;
+}
+
+.footer-direita {
+	font-size: 10pt;
+}
+
+.redessociais{
+	bottom: 50px;
+	left: 25px;
+	width: 45px;
+	position: fixed;
+	overflow: hidden;
+	z-index: 9999;
+}
+/* ############### FIM DO FOOTER ############### */
+
+
+/* ############### COMEÇO DA PÁGINA INDEX ############### */
+.titulo{
+	font-size: 18pt;
+	text-align: center;
+}
+
+.servicos{
+	width: 100%;
+	float: left;
+	padding: 3% 4%;
+}
+
+.servico{
+	width: 30%;
+	background-color: #f4f2f2;
+	text-align: left;
+	border-radius: 10px;
+	margin-bottom: 3%;
+	text-align: center;
+}
+
+.servico img{
+	border-radius: 10px 10px 0 0;
+	max-width: 100%;
+}
+
+.inner{
+	padding: 7%;
+}
+
+.inner h4{
+	font-size: 1.3em;
+	color: #130400;
+	margin-top: 2%;
+}
+
+.inner p{
+	color: #130400;
+	margin-top: 6%;
+	line-height: 1.5em;
+}
+
+.imagens{
+	max-width: 100%;
+}
+/* ############### FIM DA PÁGINA INDEX ############### */
+
+
+/* ############### COMEÇO DA PÁGINA QUEM SOMOS ############### */
+#quemsomos{
+	color: #363636;
+}
+
+.conteudo{
+	width: 85%;
+	position: relative;
+	margin: 0px auto 0px auto;
+	padding: 20px ;
+	font-size: 11pt;
+}
+
+#texto{
+	display: block;
+	padding-top: 20px;
+	text-align: left;
+}
+
+.subitens{
+	position: relative;
+	width: 30%;
+	float:left;
+	margin: 10px 10px 3% 10px;
+	padding: 9px;
+	font-size: 10pt;
+	border-radius: 20px 20px 20px 20px;
+}
+
+.subitens:hover{
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	box-shadow: 0px 0px 9px #cccccc;
+	background-color: #f9f9f9;
+}
+
+.subitens:hover .titulo_empresa{
+	color: #ff020c;
+}
+
+.titulo_empresa{
+	font-weight: bold;
+	margin-bottom: 1px;
+	color: #000000;
+}
+
+.img_ceo{
+	float: right;
+	padding: 4px;
+	margin: 0px 0px 0px 0px;
+	max-width: 250px;
+	border-radius: 0px 50px 0px 50px;
+	box-shadow: 2px 2px;
+}
+/* ############### FIM DA PÁGINA QUEM SOMOS ############### */
+
+
+/* ############### COMEÇO DA PÁGINA SERVIÇOS ############### */
+#servicos{
+	color: #363636;
+}
+
+.servicos_img{
+	text-align: center;
+	font-size: 16px;
+	filter: opacity(50%);
+	margin-bottom: 50px;
+}
+
+.servicos_img:hover{
+	filter: opacity(100%);
+}
+
+.servicos_img img{
+	max-width: 300px;
+}
+/* ############### FIM DA PÁGINA SERVIÇOS ############### */
+
+
+/* ############### COMEÇO DA PÁGINA PROJETOS ############### */
+#projetos{
+	background-color: rgba(255,255,255);
+	color: #363636;
+}
+
+.curso_img{
+	display: inline-block;
+	text-align: center;
+	margin-bottom: 50px;
+	font-size: 9pt;
+}
+
+.nome_empresa{
+	margin-bottom: 0px;
+}
+
+.servico_realizado{
+	margin: 0px 0px 0px 20px;
+
+}
+/* ############### FIM DA PÁGINA PROJETOS ############### */
+
+
+/* ############### COMEÇO DA PÁGINA CONTATO ############### */
+#contato{
+	width: 70%;
+	background-color: rgba(0,0,0,0.4);
+	padding: 50px 20px 50px 20px;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.formulario{
+	width: 80%;
+	margin: 0px auto 0px auto;
+}
+
+.grupo{
+	margin-bottom: 6px;
+}
+
+.campos{
+	display: block;
+	width: 100%;
+	padding: 5px 0px 5px 0px;
+	line-height: 20px;
+	background-color: #fff;
+	border: 1px solid #00d;
+	border-radius: 5px;
+	font-family: texto;
+	font-weight: normal;
+}
+
+.btn {
+	background-color: #080;
+	color: white;
+	padding: 10px 15px;
+	text-align: center;
+	font-weight: bold;
+	font-family: texto;
+}
+
+.btn:hover {
+  background-color: #0c0;
+}
+/* ############### FIM DA PÁGINA CONTATO ############### */
+
+
+/* ############### COMEÇO DO RESPONSIVO ############### */
+@media screen and (max-width: 1000px) {
+	.email{
+		font-size: 9pt;
+		width: 100%;
+		margin: 0px auto 0px auto;
+	}
+
+	.redessociais{
+		bottom: 50px;
+		left: 0px;
+	}
+
+	div#redessociais img{
+		max-width: 27px;
+	}
+
+	.servico{
+		width: 100%;
+	}
+
+	.solucoes{
+		font-size: 9pt;
+	}
+
+	.titulo_secao{
+		width: 280px;
+		display: block;
+		font-size: 16pt;
+	}
+
+	.subtitulo{
+		width: 100%;
+	}
+
+	.linha_subitens{
+		display: inline-block;
+		margin: 0px auto 15px auto;
+		width: 90%;
+	}
+
+	.subitens{
+		width: 100%;
+	}
+
+	.subitem{
+		width: 100%;
+	}
+
+	.img_ceo{
+		max-width: 100%;
+	}
+
+	.servicos_img{
+		filter: opacity(100%);
+		margin-bottom: 20px;
+	}
+
+	.servico_realizado{
+		margin: 0px;
+		font-size: 9.5pt;
+	}
+
+	.curso_img{
+		width: 100%;
+		margin-bottom: 40px;
+	}
+
+	#quemsomos{
+		text-align: center;
+	}
+
+	#contato{
+		width: 100%;
+		padding: 50px 0px 50px 0px;
+	}
+}
+
+@media screen and (min-width: 1280px){
+	.menu{
+		display: block;
+		position: relative;
+		font-size: 11pt;
+		font-weight: bold;
+	}
+
+	div#menu ul{
+		list-style: none;
+		text-transform: uppercase;
+		position: relative;
+		margin: 0px 0px 0px 0px;
+		padding: 0px;
+	}
+
+	div#menu li{
+		display: inline-block;
+		padding: 0px 25px 5px 25px;
+		transition: background-color 1s;
+	}
+
+	div#menu a{
+		color: #000000;
+		text-decoration: none;
+		font-size: 1em;
+		padding: 15px;
+	}
+
+	a:hover {
+		color: #9c9c9c !important;
+		-webkit-transition: all 0.5s ease;
+		-moz-transition: all 0.5s ease;
+		-o-transition: all 0.5s ease;
+		transition: all 0.5s ease;
+		text-decoration: none;
+	}
+
+	.btn-menu{
+		display: none;
+	}
+	.btn-close{
+		display: none;
+	}
+}
+/* ############### FIM DO RESPONSIVO ############### */

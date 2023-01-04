@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Consultoria Mariano - Seu problema nossa solução</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=devide-width, initial-scale=1">
+	<link href="css/estilo.css" type="text/css" rel="stylesheet">
+	<script type="text/javascript" src="js/jquery-2.js"></script>
+</head>
+<body>
+	<header>		
+		<div class="linha" id="topo">
+			<div class="esquerda" id="logo">
+				<a href="index.html">
+					<figure>
+						<img src="imagens/logo.png">
+					</figure>
+				</a>
+			</div>
+
+			<div class="direita" id="menu" class="menu">
+				<button class="btn-menu bg-gradient">
+					<strong>
+						CM
+					</strong>
+				</button>
+				<nav class="menu">
+					<a class="btn-close">
+						<i class="fa fa-times" aria-hidden="true">X</i>
+					</a>
+					<ul>
+						<li><a href="quemsomos.html">Quem somos</a></li>
+						<li><a href="servicos.html">Serviços</a></li>
+						<li><a href="cursos.html">Cursos</a></li>
+						<li><a href="projetos.html">Projetos</a></li>
+						<li><a href="contato.html">Contato</a></li>
+					</ul>
+				</nav>
+				
+				<!-- JQUERY -->
+				<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+				<script>
+					$(".btn-menu").click(function(){
+						$(".menu").show();
+					});
+					$(".btn-close").click(function(){
+						$(".menu").hide();
+					});
+
+					$(document).ready(function() {
+						$(window).on('scroll', function() {
+							if ($(window).scrollTop() >= 150) {
+								$('#topo').addClass('menu_topo');
+							} else {
+								$('#topo').removeClass('menu_topo');
+							}
+						});
+					});
+				</script>
+			</div>
+
+			<div id="email">
+				<p class="email">
+					mariano@consultoriamariano.com.br <img src="imagens/logo_email.png">
+				</p>
+			</div>
+		</div>
+	</header>
+
+	<article>
+		<video class="imagem_banner" autoplay="" muted="" loop="">
+			<source src="videos/banner1.mp4" type="video/mp4">
+		</video>
+		<div class="linha_vermelha">
+			
+		</div>
+	</article>
+
+	<main>
+		<article class="conteudo" id="quemsomos">
+			<section>
+				<h1 class="titulo">
+					SOLUÇÕES DE TI
+				</h1>
+			</section>
+
+			<section class="linha_subitens">
+				<article class="servico">
+					<img src="imagens/hardware.jpg" alt="Campanhas publicitárias">
+					<div class="inner">
+						<h4>Serviços de Hardware</h4>
+						<p>
+							Serviços o hardware não está funcionando bem, sua empresa também não está. Ajudaremos você a construir a infraestrutura certa.
+						</p>
+					</div>
+				</article>
+
+				<article class="servico">
+					<img src="imagens/software.jpg" alt="Marketing Digital">
+					<div class="inner">
+						<h4>Serviços de Software</h4>
+						<p>
+							Manter sua empresa produtiva com a consultoria de TI ajudará você a crescer de maneira eficiente e eficaz.
+						</p>
+					</div>
+				</article>
+
+				<article class="servico">
+					<img src="imagens/redes.jpg" alt="Criação de Sites">
+					<div class="inner">
+						<h4>Serviços de Redes</h4>
+						<p>
+							Manter sua empresa conectada com o mundo ajudará você a crescer e conquistar novos clientes por todos os continentes.
+						</p>
+					</div>
+				</article>
+			</section>
+
+			<section>
+				<h1 class="titulo">
+					AS MELHORES SOLUÇÕES DE TI PARA O SUCESSO DE SUA EMPRESA
+				</h1>
+			</section>
+
+			<section>
+				<div class="linha_subitens">
+					<div>
+						<img src="imagens/imagens.png" class="imagens">
+					</div>
+
+					<div>
+						Computação do usuário final<br>
+						Licenças de Software<br>
+						Instalação e configuração de software<br>
+						Soluções em nuvem<br>
+						Modernização da infraestrutura de TI<br>
+						Backup<br>
+						Rede e equipamentos de comunicação<br>
+						Análise de dados<br>
+						Desenvolvimento de software personalizado<br>
+						Automatização com Arduino e Raspberry<br>
+						Treinamento do pacote Office<br>
+						Desenvolvimento de projetos em TI
+					</div>
+				</div>
+			</section>
+
+		</article>
+	</main>
+
+	<footer>
+		<div class="redessociais" id="redessociais">
+			<a href="https://www.facebook.com/consultoriamarianoTI/" target="_blank"><img src="imagens/logo_facebook.png"></a>
+
+			<a href="https://www.instagram.com/consultoriamariano/" target="_blank"><img src="imagens/logo_instagram.png"></a>
+
+			<a href="https://www.linkedin.com/in/douglas-mendes-mariano/" target="_blank"><img src="imagens/logo_linkedin.png"></a> 
+
+			<a href="https://www.youtube.com/channel/UCitqWnmOU-NN9KFto4Mc4-Q" target="_blank"><img src="imagens/logo_youtube.png"></a>
+
+			<a href="https://api.whatsapp.com/send?phone=5511952296139" target="_blank"><img src="imagens/logo_whatsapp.png"></a>
+		</div>
+
+		<div class="linha footer">
+			<p>
+				Copyright - Todos os direitos reservados Consultoria Mariano - 2020
+			</p>
+		</div>
+	</footer>
+</body>
+</html>
