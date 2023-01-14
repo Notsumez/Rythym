@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/home.css">
     <link rel="stylesheet" href="CSS/reset.css" >
+    <link rel="shortcut icon" href="images/Rythym-pequeno-Logo.ico" type="image/x-icon">
     <title>RYTHYM - A Magia da Música</title>
 </head>
 <body id="bg_transparent">
@@ -26,10 +27,6 @@
             </button>
         </article>
     </main>
-
-
-
-
     <?php include('footer.html');?>
 </body>
 </html>
