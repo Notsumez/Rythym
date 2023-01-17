@@ -27,6 +27,5 @@
             </button>
         </article>
     </main>
-    <?php include('footer.html');?>
 </body>
 </html>

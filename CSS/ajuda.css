@@ -100,7 +100,11 @@
     color: white;
 }
 
-.faq-sub-perguntas-lista-item-nome {
+.faq_sub_perguntas_lista_item {
+    border-bottom: 2px solid rgb(155, 155, 155);
+}
+
+.faq_sub_perguntas_lista_item_nome {
     width: 100%;
     padding: 24px 0;
     display: flex;
@@ -112,12 +116,30 @@
     line-height: 24px;
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
 }
 
-.faq-sub-perguntas-lista-item-desc {
+.faq_sub_perguntas_lista_item_desc {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(155, 155, 155);
+    transition: all 0.3 ease-in-out;
+    max-height: 0;
+    overflow: hidden;
 }
+
+.faq_sub_perguntas_lista_item_desc p{
+    padding-bottom: 20px;
+}
+
+.ativar {
+    max-height: 300px;
+    padding: 0px 20px 20px 20px;
+}
+
+.fechar i{
+    transform: rotate(90deg);
+}
+
 
 .soundiiz {
     color: rgb(83, 83, 255);

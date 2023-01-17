@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rythym - Artistas</title>
 </head>
 <body>
-    <i class="fa-solid fa-play-pause botao-play"></i>
+    
 
 </body>
 </html>

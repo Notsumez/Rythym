@@ -100,22 +100,23 @@
                     <h2 class="faq-geral-item-nome">Promoções</h2>
                 </a>
             </div>
-            <div class="faq-perguntas-frequentes">
+
+            <section class="faq-perguntas-frequentes">
                 <div class="faq-sub-perguntas">
                     <h1 class="faq-sub-perguntas-titulo">
                         <span>Perguntas Frequentes</span> 
                     </h1>
                     <div class="faq-sub-perguntas-lista">
-                        <div class="faq-sub-perguntas-lista-item">
-                            <div class="faq-sub-perguntas-lista-item-nome">
+                        <div class="faq_sub_perguntas_lista_item">
+                            <div class="faq_sub_perguntas_lista_item_nome">
                                 <h2>O que é conta premium? Por quê ser premium?</h2>
                                 <div class="faq-item-icon">
                                     <span>
-                                        <i class="fa-solid fa-chevron-down"></i>
+                                        <i class="fa-solid fa-chevron-right"></i>
                                     </span>
                                 </div>
                             </div>
-                            <div class="faq-sub-perguntas-lista-item-desc" style="display: none;">
+                            <div class="faq_sub_perguntas_lista_item_desc">
                                 Os usuários Premium têm acesso a alguns recursos exclusivos, como a possibilidade de baixar músicas, 
                                 transmitir músicas baixadas offline, reproduzir músicas em áudio de alta qualidade, pular, avançar e 
                                 retroceder músicas quantas vezes quiser. Se você estiver interessado, pode tocar no banner Premium na 
@@ -123,62 +124,62 @@
                                 tornar o serviço Premium fácil e acessível para o maior número possível de usuários.
                             </div>
                         </div>
-                        <div class="faq-sub-perguntas-lista-item">
-                            <div class="faq-sub-perguntas-lista-item-nome">
+                        <div class="faq_sub_perguntas_lista_item">
+                            <div class="faq_sub_perguntas_lista_item_nome">
                                 <h2>Fiz meu pagamento com sucesso mas meu status não mudou</h2>
                                 <div class="faq-item-icon">
                                     <span>
-                                        <i class="fa-solid fa-chevron-down"></i>
+                                        <i class="fa-solid fa-chevron-right"></i>
                                     </span>
                                 </div>
                             </div>
-                            <div class="faq-sub-perguntas-lista-item-desc" style="display: none;">
+                            <div class="faq_sub_perguntas_lista_item_desc">
                                 Em raras ocasiões isso pode acontecer, geralmente devido a alguns erros que ocorrem quando a mediadora do 
                                 pagamento envia o pedido para nós. Nesse caso, você deve receber um reembolso automático dentro de 3 dias 
                                 úteis. Se isso não acontecer, entre em contato com o Google Play Store / App Store para obter ajuda.
                             </div>
                         </div>
-                        <div class="faq-sub-perguntas-lista-item">
-                            <div class="faq-sub-perguntas-lista-item-nome">
+                        <div class="faq_sub_perguntas_lista_item">
+                            <div class="faq_sub_perguntas_lista_item_nome">
                                 <h2>Como altero ou adiciono um novo método de login?</h2>
                                 <div class="faq-item-icon">
                                     <span>
-                                        <i class="fa-solid fa-chevron-down"></i>
+                                        <i class="fa-solid fa-chevron-right"></i>
                                     </span>
                                 </div>
                             </div>
-                            <div class="faq-sub-perguntas-lista-item-desc" style="display: none;">
+                            <div class="faq_sub_perguntas_lista_item_desc">
                                 Agora é possível trocar seu método de login ou adicionar um novo para caso você precise recuperar sua conta Rythym :)
                                 Vá em página Eu, clique no ícone de Configuração no canto direito superior da tela e em Gerenciamento da conta. 
                                 Vincule mais de um acesso para que possa logar em sua conta caso o método atual se torne indisponível. <br><br>
                                 Caso deseje trocar seu método atual, vincule um novo e depois clique no antigo para deletá-lo.
                             </div>
                         </div>
-                        <div class="faq-sub-perguntas-lista-item">
-                            <div class="faq-sub-perguntas-lista-item-nome">
+                        <div class="faq_sub_perguntas_lista_item">
+                            <div class="faq_sub_perguntas_lista_item_nome">
                                 <h2>Como importar playlists e favoritos de outros serviços musicais?</h2>
                                 <div class="faq-item-icon">
                                     <span>
-                                        <i class="fa-solid fa-chevron-down"></i>
+                                        <i class="fa-solid fa-chevron-right"></i>
                                     </span>
                                 </div>
                             </div>
-                            <div class="faq-sub-perguntas-lista-item-desc" style="display: none;">
+                            <div class="faq_sub_perguntas_lista_item_desc">
                                 Você pode importar suas listas de reprodução e favoritos de outros serviços musicais da Soundiiz! 
                                 Clique aqui e saiba mais <a class="soundiiz" href="https://soundiiz.com/">https://soundiiz.com/</a> :)
                             </div>
                         </div>
-                        <div class="faq-sub-perguntas-lista-item">
-                            <div class="faq-sub-perguntas-lista-item-nome">
+                        <div class="faq_sub_perguntas_lista_item">
+                            <div class="faq_sub_perguntas_lista_item_nome">
                                 <h2>Regras da promoção de 3 meses</h2>
                                 <div class="faq-item-icon">
                                     <span>
-                                        <i class="fa-solid fa-chevron-down"></i>
+                                        <i class="fa-solid fa-chevron-right"></i>
                                     </span>
                                 </div>
                             </div>
-                            <div class="faq-sub-perguntas-lista-item-desc" style="display: none;">
-                                A promoção de 3 meses é exclusiva para o plano individual (não incluindo o plano Familiar, Estudante ou Anual) e ficará no ar até 14/9! Bora aproveitar?<br><br>
+                            <div class="faq_sub_perguntas_lista_item_desc">
+                                <p>A promoção de 3 meses é exclusiva para o plano individual (não incluindo o plano Familiar, Estudante ou Anual) e ficará no ar até 14/9! Bora aproveitar?<br><br>
 
                                 <strong>• Para usuários que nunca assinaram o plano Premium anteriormente:</strong>
                                 Você terá acesso ao período gratuito de 3 meses, e ao fim desse período, o plano será renovado automaticamente pelo valor integral de R$16,90. <br><br>
@@ -193,15 +194,16 @@
                                 • Ao fim do período, o plano se renovará e a cobrança acontecerá normalmente;<br>
                                 • É possível cancelar a qualquer momento. <br>
                                 • Caso tenha utilizado alguma das promoções anteriormente, não será possível participar novamente. <br><br>
-
+                                </p>
 
                                 Caso enfrente algum problema durante a adesão do plano, ou tenha alguma dúvida, entre em contato clicando em "Ainda preciso de ajuda" e nos envie um print da tela com mais detalhes. O time responsável te auxiliará :)
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
         </div>
     </div>
+    <script src="../Rythym/js/script.js"></script>    
 </body>
 </html>

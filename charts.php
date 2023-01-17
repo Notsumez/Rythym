@@ -57,7 +57,6 @@
                             <div class="charts-favoritar">
                                 <div>
                                     <i class="fa-regular fa-heart botao-favoritar"></i>
-                                    <i class="fa-solid fa-heart botao-desfavoritar"></i>
                                 </div>
                             </div>
                         </div>
@@ -1016,7 +1015,37 @@
                 <!-- fim das faixas  -->
             </div>
         </article>
+        <!-- Começo Player de Musicas  -->
+        <section class="sessao_player_musica ">
+            <div class="player-controle">
+                <div class="player-botao-voltar">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </div>
+                <div class="player-capa-album">
+                    <img src="./images/Capas - Top 40 do Rythym/Blackpink_-_How_You_Like_That.png" alt="">
+                </div>
+                <div class="player-barra-tempo">
+                    <progress value="0" max="1"></progress>
+                    <p class="player-barra-min-inicio">00:00</p>
+                    <p class="player-barra-min-fim">00:00</p>
+                </div>
+                <div class="player-info-musica">
+                    <h1 class="player-nome-musica">Nome da Musica</h1>
+                    <a class="player-nome-artista" href="">Artista</a>
+                </div>
+                <div class="player-progress">
+                    <i class="fa-solid fa-rotate-right active"></i>
+                    <i class="fa-solid fa-backward active"></i>
+                    <i class="fa-solid fa-play active"></i>
+                    <i class="fa-solid fa-pause"></i>
+                    <i class="fa-solid fa-forward active"></i>
+                    <input type="range" class="slider-volume" max="1" value="1" step="0.1">
+                    <span class="fas fa-volume-up icone-volume"></span>
+                </div>
+            </div>
+        </section>
+        <!-- Fim Player de Musicas  -->
     </main>
-    <script src="js/charts.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
