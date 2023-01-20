@@ -393,10 +393,14 @@ button {
 }
 
 .sessao_player_musica .player-info-musica{
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 0px;
     margin-top: 15px;
-    margin-right: 80px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 
@@ -405,7 +409,6 @@ button {
     margin-bottom: 0px;
     margin-top: 3px;
     color: white;
-    margin-left: 600px;
 }
 
 .sessao_player_musica .player-nome-artista {
@@ -414,7 +417,6 @@ button {
     margin-bottom: 10px;
     font-size: 10pt;
     cursor: pointer;
-    margin-left: 632px;
 }
 
 .player-tempo {
@@ -441,10 +443,8 @@ button {
 .player-progress {
     color: rgb(226, 226, 226);
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    margin-left: 550px;
-    margin-right: 600px;
     font-size: 12pt;
 }
 
@@ -452,6 +452,8 @@ button {
     padding: 0px;
     cursor: pointer;
     display: none;
+    margin-right: 5px;
+    margin-left: 5px;
 }
 
 .player-progress i.active {
@@ -504,24 +506,25 @@ button {
 .sessao_player_musica.active{
     width: 100%;
     height: 100%;
-    padding-left: 50px;
-    padding-top: 50px;
-    padding-bottom: 0px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
 }
 
 .sessao_player_musica.active .player-info-musica{
     display: block;
     margin-bottom: 0px;
-    
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
 }
 
 .sessao_player_musica.active .player-nome-musica {
     display: flex;
     font-size: 25pt;
     color: white;
-    margin-left: 500px;
 }
 
 .sessao_player_musica.active .player-nome-artista {
@@ -529,23 +532,30 @@ button {
     margin-top: 20px;
     font-size: 15pt;
     color: white;
-    margin-left: 583px;
 }
 
 
 .sessao_player_musica.active .player-barra-tempo {
     height: 10px;
     width: 80%;
-    border: solid 1px #979797;
+    border: solid 2px #979797;
     margin-top: 0px;
     border-radius: 20px;
-    margin-left: 75px;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
 }
 
-.sessao_player_musica.active .player-barra-tempo progress {
-    height: 10px;
+.sessao_player_musica.active .player-barra-tempo input {
+    height: 6px;
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
     cursor: pointer;
+    opacity: 0;
 }
 
 .sessao_player_musica.active .player-progress {
@@ -566,11 +576,13 @@ button {
     justify-content: center;
     margin-top: 39px;
     margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .sessao_player_musica.active .player-capa-album img {
     width: 500px;
-    height: 400px;
+    height: 500px;
     border-radius: 20px;
 }
 
@@ -585,7 +597,6 @@ button {
     color: white;
     position: absolute;
     margin-top: 15px;
-    right: 190px;
 }
 
 .sessao_player_musica.active .player-botao-voltar {
@@ -596,6 +607,7 @@ button {
     left: 20px;
     position: absolute;
     display: flex;
+    top: 0;
 }
 
 .sessao_player_musica.active .slider-volume {

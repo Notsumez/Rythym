@@ -1016,7 +1016,7 @@
             </div>
         </article>
         <!-- Começo Player de Musicas  -->
-        <section class="sessao_player_musica ">
+        <section class="sessao_player_musica">
             <div class="player-controle">
                 <div class="player-botao-voltar">
                     <i class="fa-solid fa-chevron-left"></i>
@@ -1025,7 +1025,7 @@
                     <img src="./images/Capas - Top 40 do Rythym/Blackpink_-_How_You_Like_That.png" alt="">
                 </div>
                 <div class="player-barra-tempo">
-                    <progress value="0" max="1"></progress>
+                    <input type="range" max="1" value="1" step="0.1"></input>
                     <p class="player-barra-min-inicio">00:00</p>
                     <p class="player-barra-min-fim">00:00</p>
                 </div>
